@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ background-image:url(../img/fundo.jpg); background-size:100%; background-attachment:fixed; background-repeat:no-repeat; text-align:center; margin-top:0px; margin-left:0px;
+}
+
+#fita{ background-image:url(../img/friso.png); background-repeat:repeat-y; margin-left:100px; width:7px; position:absolute; top:0px; bottom:0px;}
+
+#logo{ margin-left:120px; margin-top:30px; width:259px; height:173px; position:relative; float:left; }
+
+#contato{ text-align:right; position:relative; float:right; height:173px; width:auto; margin-right:150px; margin-top:30px;}
+
+#social{ width:440px; height:auto; margin-top:90px;}
+
+#email{ width:440px; height:auto;}
+
+#clear{ clear:both;}
+
+#espaco{
+    margin-left:180px;
+    margin-top:80px;
+    position:relative;
+    float: left;
+}
+#menu{ position:relative; float:left;}
+
+#content{ position:relative; float:left; margin-top:20px; margin-left:150px; border-style:dashed; width:680px; height:405px; }
+
+#miniatura { position:relative; float:left; border-style:dashed; width:130px; height:130px; }
+
+#miniatura2 { position:relative; float:left; border-style:dashed; width:110px; height:110px; }
+
+#miniatura2  img {
+
+    width: 110px;
+    height: 110px; 
+}
+
+
+#miniatura a img {
+
+    width: 130px;
+    height: 130px; 
+    z-index:-1;
+}
+#miniatura a{
+    position:relative;
+    float:left;
+    width: 130px;
+    height: 130px; 
+}
+
+#miniatura a:hover {
+    background-size: 100%;
+   background-image:url(../img/miniatura_imagem_por_cima.png) ; 
+    display:block;
+
+}
+
+#paginacao { display:block; position:relative; float:left; width:700px; margin-left:340px; margin-top:10px; height:28px; }
+
+.logos a { display:block; width:60px; height:21px; margin-left:120px; position:relative; margin-top:80px; background-image:url(../img/logos.png);}
+
+.logos a:hover { display:block; width:60px; height:21px; margin-left:120px; position:relative; margin-top:80px; background-image:url(../img/logos_ativo.png);}
+
+
+.doisde { display:block; width:77px; height:21px; margin-left:120px; position:relative; margin-top:30px; background-image:url(../img/2d_ativo.png);}
+
+.tresde a { display:block; width:77px; height:21px; margin-left:120px; position:relative; margin-top:30px; background-image:url(../img/3d.png);}
+
+.tresde a:hover { display:block; width:77px; height:21px; margin-left:120px; position:relative; margin-top:30px; background-image:url(../img/3d_ativo.png);}
+.anterior a{ display:block; position:relative; float:left; background-image:url(../img/anteriores.png); width:154px; height:28px; }
+.anterior a:hover { display:block; position:relative; float:left; background-image:url(../img/anteriores_ativo.png); width:154px; height:28px; }
+
+.proximo a{display:block; position:relative; width:154px; background-image:url(../img/proximos.png); height:28px; float:right; }
+.proximo a:hover {display:block; position:relative; width:154px; background-image:url(../img/proximos_ativo.png); height:28px; float:right; }
